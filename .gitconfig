@@ -12,3 +12,17 @@
 [credential "https://gist.github.com"]
 	helper =
 	helper = !gh auth git-credential
+[init]
+	defaultBranch = main
+[push]
+	autoSetupRemote = true
+[pull]
+	rebase = true
+[rebase]
+	autoStash = true
+[fetch]
+	prune = true
+[diff]
+	algorithm = histogram
+[merge]
+	conflictStyle = zdiff3

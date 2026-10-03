@@ -6,7 +6,7 @@ Repository where I keep my various configuration files.
 | Path | Installed to |
 |---|---|
 | `.gitconfig` | `~/.gitconfig` (SSH commit signing, `gh` credential helper) |
-| `macos/.zshrc`, `.zshenv`, `.zprofile`, `.p10k.zsh` | `~/` (Oh My Zsh + Powerlevel10k, zoxide, nvm) |
+| `macos/.zshrc`, `.zshenv`, `.zprofile`, `.p10k.zsh` | `~/` (Oh My Zsh + Powerlevel10k, zoxide, nvm; Python comes from uv) |
 | `macos/.config/nix/nix.conf` | `~/.config/nix/` (enables flakes) |
 | `macos/.config/git/ignore` | `~/.config/git/` (global gitignore) |
 | `macos/.config/ghostty/` | Ghostty terminal |
@@ -20,7 +20,7 @@ Repository where I keep my various configuration files.
 3. `macos/install.sh --dry-run` to preview, then `macos/install.sh` to symlink everything
    (existing files are kept as `*.bak`)
 4. Font: [Lilex Nerd Font](https://www.nerdfonts.com/font-downloads) (used by Zed and Powerlevel10k)
-5. Toolchains, installed separately: [rustup](https://rustup.rs), [nvm](https://github.com/nvm-sh/nvm), [uv](https://docs.astral.sh/uv/)
+5. Toolchains, installed separately: [rustup](https://rustup.rs), [nvm](https://github.com/nvm-sh/nvm), [uv](https://docs.astral.sh/uv/) (then `uv python install 3.14 --default`)
 
 ## Windows
 - `windows/packages.config`: Chocolatey packages (`choco install packages.config`)

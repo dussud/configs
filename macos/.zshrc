@@ -43,8 +43,6 @@ alias sudo='sudo '
 # Re-execute the last command and put its result into the clipboard
 alias cl="fc -e -| pbcopy"
 
-alias python="python3.14"
-alias python3="python3.14"
 alias ipv4='dig -4 TXT +short o-o.myaddr.l.google.com @ns1.google.com'
 alias ipv6='dig -6 TXT +short o-o.myaddr.l.google.com @ns1.google.com'
 alias localip='ipconfig getifaddr en0'
