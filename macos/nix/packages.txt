@@ -1,0 +1,14 @@
+cmake
+fastfetch
+ffmpeg
+fzf
+gcc
+gh
+ghc
+git
+iconv
+ncdu
+nmap
+postgresql
+supabase-cli
+wget
