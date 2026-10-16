@@ -20,7 +20,7 @@ Repository where I keep my various configuration files.
 3. `macos/install.sh --dry-run` to preview, then `macos/install.sh` to symlink everything
    (existing files are kept as `*.bak`)
 4. Font: [Lilex Nerd Font](https://www.nerdfonts.com/font-downloads) (used by Zed and Powerlevel10k)
-5. Toolchains, installed separately: [rustup](https://rustup.rs), [nvm](https://github.com/nvm-sh/nvm), [uv](https://docs.astral.sh/uv/) (then `uv python install 3.14 --default`)
+5. Toolchains, installed separately: [rustup](https://rustup.rs), [nvm](https://github.com/nvm-sh/nvm), [uv](https://docs.astral.sh/uv/) (then `uv python install 3.14 --default`), [SDKMAN](https://sdkman.io) (`sdk install java`), [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app/)
 
 ## Windows
 - `windows/packages.config`: Chocolatey packages (`choco install packages.config`)

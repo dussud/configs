@@ -36,13 +36,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
-#### Aliases ####
-# make sudo work with aliases
-alias sudo='sudo '
-
-# Re-execute the last command and put its result into the clipboard
-alias cl="fc -e -| pbcopy"
-
-alias ipv4='dig -4 TXT +short o-o.myaddr.l.google.com @ns1.google.com'
-alias ipv6='dig -6 TXT +short o-o.myaddr.l.google.com @ns1.google.com'
-alias localip='ipconfig getifaddr en0'
+#### SDKMAN (Java) ####
+# This must stay at the end of the file for SDKMAN to work
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
